@@ -5,7 +5,7 @@ public class TestaGetESet {
 		Conta conta = new Conta(12, 2442);
 
 		
-		System.out.println("O saldo de sua conta é: " + conta.getSaldo());
+		System.out.println("O saldo de sua conta Ã©: " + conta.getSaldo());
 		
 		Cliente pjota = new Cliente();
 		
@@ -17,7 +17,7 @@ public class TestaGetESet {
 		
 		conta.getTitular().setProfissao("programador");
 		
-		System.out.println("Total de conta é: " + Conta.getTotal());
+		System.out.println("Total de conta Ã©: " + Conta.getTotal());
 		
 	}
 }
